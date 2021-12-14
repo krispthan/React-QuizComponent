@@ -10,7 +10,7 @@ class Quiz extends Component {
   render() {
     return (
       <div>
-        <div className="QuizQuestion">{Object.keys(quizData)[0]}</div>
+        <div className={Object.keys(quizData)[0]}></div>
       </div>
     );
   }
