@@ -4,7 +4,7 @@ class QuizQuestionButton extends Component {
   handleClick() {
     this.props.clickHandler(this.props.button_text);
   }
-  vbrender() {
+  render() {
     return (
       <li>
         <button onClick={this.handleClick.bind(this)}>
