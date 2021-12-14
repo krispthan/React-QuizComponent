@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 
 class QuizQuestion extends Component {
-  constructor(props) {
-    super(propss);
-  }
   render() {
     return (
       <main>
         <section>
-          <p>{this.props.instruction_text}</p>
+          <p>{this.props.quiz_question.instruction_text}</p>
         </section>
         <section className="buttons">
           <ul>
